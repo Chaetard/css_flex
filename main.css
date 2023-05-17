@@ -1,0 +1,55 @@
+/* Selectores */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+/* Etiquera o tag*/
+section {
+  background-color: brown;
+  padding: 16px 8px 20px 10px;
+}
+
+/* ID */
+#principal {
+  color: white;
+}
+
+/* Clase */
+
+.elemento,
+.contenedor {
+  margin: 16px;
+  border: 2px red dotted;
+}
+.contenedor {
+  border-top: 3px;
+}
+nav > ul {
+  list-style: none;
+}
+nav {
+  width: 100%;
+}
+ul {
+	list-style: georgian;
+}
+#navegacion{
+	width: 100%;
+background-color: red;
+padding: 10px 0px 10px 0px;
+}
+
+#navegacion > ul >li {
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+}
+
+#navegacion > ul >li:hover{
+	background-color: black;
+	color: white;
+	transition: 1s;
+	cursor: pointer;
+}
+
